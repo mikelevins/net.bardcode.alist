@@ -10,4 +10,12 @@
 
 (defpackage #:net.bardcode.alist
   (:use #:cl)
-  (:export ))
+  (:export #:alist
+           #:plist
+           #:alist?
+           #:plist?
+           #:alist-to-plist
+           #:plist-to-alist))
+
+
+
