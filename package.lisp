@@ -10,6 +10,7 @@
 
 (defpackage #:net.bardcode.alist
   (:use #:cl)
+  (:nicknames :alist)
   (:export #:alist
            #:plist
            #:alist?
