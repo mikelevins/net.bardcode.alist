@@ -24,7 +24,7 @@
 
 (defmethod plist? (thing)
     (declare (ignore thing))
-    t)
+    nil)
 
 (defmethod plist? ((thing cons)) 
   (and thing
